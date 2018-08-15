@@ -1,0 +1,11 @@
+<!-- /** *  -->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Azhar_HelloWorld/css/hello.css"/>
+    </head>
+    <body>
+        <referenceContainer name="product.info.main">
+            <block name="azhar_helloworld.helloworld" class="Azhar\HelloWorld\Block\Catalog\Product\HelloWorld" before="-" template="product/hello.phtml" />
+        </referenceContainer>
+    </body>
+</page>
